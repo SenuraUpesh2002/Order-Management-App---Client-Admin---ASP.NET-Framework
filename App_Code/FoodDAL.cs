@@ -10,7 +10,7 @@ namespace OrderManagementApp.App_Code
 {
     public class FoodDAL
     {
-        //Updated connection string
+        //Updated DB connection string.
         private readonly string connStr =
             ConfigurationManager.ConnectionStrings["MyCon"].ConnectionString;
 
